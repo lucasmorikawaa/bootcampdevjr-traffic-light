@@ -1,0 +1,70 @@
+body {
+    background-color: #000;
+}
+
+button{
+    background-color: #1E0C20;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 15px 32px;
+    font-size: 1.2rem;
+    margin: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.container{
+    background-color: #FFEBCE;
+    width: 450px;
+    padding: 40x;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.traffic-light{
+    background-color: #000;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.panel{
+    background-color: #808080;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.light{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+
+    border-color: #000;
+    border-width: medium;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.red-light{
+    background-color: #ff0000;
+}
+
+.yellow-light{
+    background-color: #ffff00;
+}
+
+.green-light{
+    background-color: #00ff00;
+}
+
+.light-off{
+    background-color: #3f3f3f;
+}
